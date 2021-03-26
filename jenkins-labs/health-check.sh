@@ -1,4 +1,3 @@
-# cat health-check.sh
 #!/bin/bash
 # Health Check of Server
 for n in `df -Th | grep xfs | awk '{print $1}'`
