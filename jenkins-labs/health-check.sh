@@ -28,6 +28,6 @@ echo "***********************************"
 else
 
 echo -e " "
-echo -e "Server's Memory is healthy..."
+echo -e "Server's Memory is healthy"
 fi
 
