@@ -1,0 +1,8 @@
+- name: Create user
+  hosts: all
+  tasks:
+    - name: Useradd
+      user:
+        name: devops
+        state: present
+        password: "{{ 'redhat@1234' | password_hash('sha512') }}"
